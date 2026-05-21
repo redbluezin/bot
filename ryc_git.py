@@ -10,8 +10,8 @@ import requests
 # CONFIG
 # =========================
 
-
-
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
+API_KEY = os.getenv('API_KEY')
 
 DATA_FILE = "acct.json"
 LOG_FILE = "log.txt"
